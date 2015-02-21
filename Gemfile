@@ -33,6 +33,12 @@ gem 'slim', '~> 3.0.2'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Prevent an error when starting the application from Windows
+#gem 'tzinfo-data'
+
+# Create O-Auth for authentication against LinkedIn
+gem 'devise'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
