@@ -36,6 +36,11 @@ gem 'slim', '~> 3.0.2'
 
 # Create O-Auth for authentication against LinkedIn
 gem 'devise'
+gem 'omniauth'
+gem 'omniauth-linkedin-oauth2'
+
+# Prevent SSL errors
+gem 'certified'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
