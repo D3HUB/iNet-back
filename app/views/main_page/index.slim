@@ -1,2 +1,8 @@
 div
   | Hello world
+
+div
+  -unless user_signed_in?
+    ==link_to "Sign in with LinkedIn", user_omniauth_authorize_path(:linkedin)
+  -else
+    ==current_user.email
