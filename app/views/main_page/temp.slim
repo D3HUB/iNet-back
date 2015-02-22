@@ -31,6 +31,18 @@ div class="navbar-wrapper"
                 li
                   a href="#" One more separated link
 
+          ul class="nav pull-right"
+            li
+              -if user_signed_in? and current_user.permissions > 0 then
+                span class="glyphicon glyphicon-plus white" aria_hidden=true
+          ul class="nav pull-right"
+            li
+              -unless user_signed_in?
+                ==link_to(image_tag("linkedin/Sign-in-Small---Active.png"), user_omniauth_authorize_path(:linkedin))
+              -else
+                a href=""
+                  ==current_user.email
+
 
 div [ id="myCarousel" class="carousel slide"  data-ride="carousel"]
 

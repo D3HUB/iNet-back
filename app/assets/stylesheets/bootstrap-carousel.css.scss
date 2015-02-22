@@ -33,6 +33,27 @@ body {
     width: auto;
 }
 
+/* LINKEDIN SIGN IN BUTTON
+-------------------------------------------------- */
+.linkedin:active {
+    background-image: url("linkedin/Sign-in-Small---Active.png");
+}
+
+.linkedin:hover {
+    background-image: url("linkedin/Sign-in-Small---Hover.png");
+}
+
+.linkedin {
+  margin-bottom: 10px;
+  width: 146px;
+  height: 21px;
+  display:block;
+  background:transparent url("linkedin/Sign-in-Small---Default.png") center top no-repeat;
+}
+
+.white, .white a {
+  color: #fff;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */

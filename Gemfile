@@ -32,7 +32,7 @@ gem 'slim', '~> 3.0.2'
 # gem 'capistrano-rails', group: :development
 
 # Prevent an error when starting the application from Windows
-#gem 'tzinfo-data'
+gem 'tzinfo-data'
 
 # Create O-Auth for authentication against LinkedIn
 gem 'devise'

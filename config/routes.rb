@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root 'main_page#index'
+   root 'main_page#temp'
 
    ## ------ project ------ ##
    post 'project/create' => 'project#create'
