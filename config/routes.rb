@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
    ## ------ project ------ ##
    post 'project/create' => 'project#create'
+   get 'project' => 'project#get'
    ## ---- end project ---- ##
 
   # Example of named route that can be invoked with purchase_url(id: product.id)

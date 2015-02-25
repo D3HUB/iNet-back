@@ -14,6 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
-//= require angular-1.3.9.min.js
 //= require main_namespace
 //= require_tree .

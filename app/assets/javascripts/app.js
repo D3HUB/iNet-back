@@ -1,10 +1,9 @@
 // create app  namespaces
+/** @namespace iNet.app */
 iNet.namespace("app");
 
-iNet.app = angular.module('D3iNet', [
 
-]);
-
+// TODO it should not be here
 $(document).ready(function(){
     $('.carousel').carousel({interval: 2000});
 });
